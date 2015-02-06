@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="10" height="9" tilewidth="43" tileheight="43">
+ <tileset firstgid="1" name="map" tilewidth="43" tileheight="43">
+  <image source="map.png" width="86" height="43"/>
+  <tile id="0">
+   <properties>
+    <property name="value" value="0"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="value" value="0"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="background" width="10" height="9">
+  <data encoding="base64" compression="zlib">
+   eJxjZGBgYAJiRgI0MWoYiVQzEs0DAGFYAIg=
+  </data>
+ </layer>
+</map>

@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\MenuDemo">
+      <UniqueIdentifier>{122b4325-d499-4f33-9325-95eda55918d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\AStar">
+      <UniqueIdentifier>{c47ee0ad-fdf8-4e9d-82c5-b56a92da649a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Matrix">
+      <UniqueIdentifier>{0231f092-22c3-4663-b953-ddf4e236b4cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\AStarDemo">
+      <UniqueIdentifier>{bf7807e6-b7b1-4d6b-bf2f-bdf3e2b72193}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HelloWorldScene.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MenuDemo\MenuScene.cpp">
+      <Filter>Classes\MenuDemo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AStar\AStarBean.cpp">
+      <Filter>Classes\AStar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AStar\AStarLogic.cpp">
+      <Filter>Classes\AStar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Matrix\MatrixLogic.cpp">
+      <Filter>Classes\Matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Matrix\MatrixScene.cpp">
+      <Filter>Classes\Matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Matrix\NoTouchLayer.cpp">
+      <Filter>Classes\Matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Matrix\Player.cpp">
+      <Filter>Classes\Matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Matrix\TileBean.cpp">
+      <Filter>Classes\Matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Matrix\ViewUtil.cpp">
+      <Filter>Classes\Matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AStarDemo\AStarViewScene.cpp">
+      <Filter>Classes\AStarDemo</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HelloWorldScene.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MenuDemo\MenuScene.h">
+      <Filter>Classes\MenuDemo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AStar\AStarBean.h">
+      <Filter>Classes\AStar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AStar\AStarLogic.h">
+      <Filter>Classes\AStar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Matrix\MatrixLogic.h">
+      <Filter>Classes\Matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Matrix\MatrixScene.h">
+      <Filter>Classes\Matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Matrix\NoTouchLayer.h">
+      <Filter>Classes\Matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Matrix\Player.h">
+      <Filter>Classes\Matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Matrix\TileBean.h">
+      <Filter>Classes\Matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Matrix\ViewUtil.h">
+      <Filter>Classes\Matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AStarDemo\AStarViewScene.h">
+      <Filter>Classes\AStarDemo</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
